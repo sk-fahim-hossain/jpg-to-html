@@ -1,0 +1,278 @@
+*{
+    padding: 0px;
+    outline: 0;
+    margin: 0px;
+}
+body{
+   font-family: sans-serif, Arial;
+    transition:all 0.5 ease;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.clear{
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: orange;
+}
+ul{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 15px 0px;
+}
+p{
+    margin: 10px;
+    line-height: 150%;
+}
+.float_left{
+    float: left;
+}
+.float_right{
+    float: right;
+}
+.header_bg{
+    background-color: #242828;
+}
+.full_wrapper{
+    width: 100%;
+}
+.wrapper{
+    width: 1112px;
+    margin: 0 auto;
+}
+/* header css start */
+.header_part{
+    background-color: #242828;
+    height: 60px;
+    color: antiquewhite;
+}
+.header_left img{
+    margin-top: 13px;
+    width:100px;
+    height: auto;
+}
+.header_right ul{
+    list-style: none;
+}
+.header_right ul li{
+    float:left;
+    margin-top: 16px;
+}
+.header_right ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 25px;
+    margin: 10px;
+}
+.header_right ul li a:hover{
+    color: #1EB2BF;
+    transition: 0.5s ease;
+    font-size: 28px;
+}
+/* header css end */
+
+/* menu css start */
+.nav_bg{
+    background-color: white;
+    height: 80px;
+}
+.nav_part{
+    background-color:white;
+}
+.nav_part ul{
+}
+
+.nav_part ul li{
+    float: left;
+
+}
+.nav_part ul li a{
+    color: black;
+    padding: 28px 25px;
+    display:inline-block;
+}
+.nav_part ul li a:hover{
+    color: #1EB2BF;
+    border-bottom: 1px solid #1EB2BF;
+    transition: 0.5s ease;
+}
+.search_btn{
+    margin: 19px 0px;
+    padding: 10px 20px;
+    background-image: url(./img/search\ icon.png);
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: 175px;
+}
+.nav_right_part input{
+    border: 1px solid lightgrey;
+}
+
+/* menu css end */
+
+/* banner css start */
+
+.banner_bg{
+background-image: url('./img/header3.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+opacity: 0.9;
+}
+.banner_section{
+    height: 480px;
+}
+.banner_content{
+    transform: translateY(200px);
+    text-align: center;
+}
+.banner_content h2{
+    color: black;
+    font-size: 40px;
+}
+.banner_content p{
+    color: black;
+    font-weight: bold;
+}
+/* banner section css end */
+
+/* content section css start */
+
+.top-content-section{
+    text-align: center;
+}
+.top-content-section h2{
+    margin-top: 80px;
+    font-size: 30px;
+    padding: 20px 0px;
+}
+.top-content-section p{
+
+}
+
+.feature_section{
+    margin-top:80px;
+    display: flex;
+    float: left;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.feature_section{}
+
+.single-feature a{
+    font-size: 90px;
+    color: #0BB4BE;
+}
+.single-feature a:hover{
+    font-size: 120px;
+    transition: 0.5s ease;
+}
+.single-feature h3{
+    font-size:28px;
+}
+.single-feature p{}
+
+
+#blog_post_bg{
+    background: white;
+}
+.single_blog{
+    width: 348px;
+    margin-right: 19px;
+    margin-bottom: 30px;
+    border: 1px solid lightGrey;
+}
+.single_blog:last-child{
+    margin-right:none;
+}
+.single_blog img{
+    width: 100%;
+    height: 200px;
+}
+.single_blog h3{
+    margin-left: 20px;
+    color: #8B8A89;
+}
+.single_blog p{
+    margin-left: 20px;
+    color: #8B8A89;
+}
+/* blog post section css end */
+.partner-logos img{
+    width: 100%;
+    height: 65px;
+    margin-top:80px;
+    margin-bottom:80px;
+}
+.single-logo{
+    margin-right: 150px;
+}
+.single-logo:last-child{
+    margin-right:0px;
+}
+
+/* footer top section css starts */
+.footer_top{
+    height:420px;
+    background: #504E4D ; 
+}
+.footer-element{
+    width:225px;
+    margin-right: 55px;
+}
+.footer-element:last-child{
+    margin-right:0px;
+}
+.footer-element h2{
+    padding-top: 40px;
+ color: lightGrey;
+}
+.footer-element h5{
+    color: lightGrey;
+}
+.footer-element p{
+    color: lightGrey;
+}
+.footer-top-first-element h2{}
+.footer-top-first-element h5{}
+.footer-top-first-element p{}
+.fa-clock{
+    color: #1EB2BF;
+}
+.border{
+    border-bottom: 1px solid grey;
+    width: 20%;
+}
+
+
+
+/* footer css start */
+/* footer{
+    background :red;
+} */
+footer p{
+    margin-top: 25px;
+    color:white;
+}
+footer ul li {} 
+/* footer ul li a i{
+    color :red;
+}  */
+
+#footer-element{
+    background-color: #242828;
+}
+
+.name{
+    padding: 3px;
+    background-color: #1EB2BF;
+    border: none;
+    color:white;
+    border-radius:5px;
+}
+
